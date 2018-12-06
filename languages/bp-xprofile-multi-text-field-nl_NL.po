@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BP XProfile Multi Text Field\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-06 23:00+0000\n"
+"PO-Revision-Date: 2018-12-06 23:02+0000\n"
+"Last-Translator: Laurens Offereins <lmoffereins@gmail.com>\n"
+"Language-Team: Nederlands\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.1-alpha-20181201.165104"
+
+#: ../../../../src/wp-content/plugins/bp-xprofile-multi-text-field/includes/functions.php:86
+msgid "Add field"
+msgstr "Waarde toevoegen"
+
+#. Name of the plugin
+msgid "BP XProfile Multi Text Field"
+msgstr "BP XProfile Multi Text Field"
+
+#. Description of the plugin
+msgid "BuddyPress profile field type that can have multiple text inputs"
+msgstr "BuddyPress profielveld dat meerdere tekstvelden kan bevatten"
+
+#. Author URI of the plugin
+msgid "https://github.com/lmoffereins/"
+msgstr ""
+"https://github.com/lmoffereins/\n"
+
+#. URI of the plugin
+msgid "https://github.com/lmoffereins/bp-xprofile-multi-text-field/"
+msgstr "https://github.com/lmoffereins/bp-xprofile-multi-text-field/"
+
+#. Author of the plugin
+msgid "Laurens Offereins"
+msgstr "Laurens Offereins"
+
+#: ../../../../src/wp-content/plugins/bp-xprofile-multi-text-field/includes/classes/class-bp-xprofile-field-type-multi-text.php:186
+msgid "Max Items Allowed"
+msgstr "Toegestane aantal waarden"
+
+#: ../../../../src/wp-content/plugins/bp-xprofile-multi-text-field/includes/functions.php:83
+msgid "Remove field"
+msgstr "Waarde verwijderen"
+
+#: ../../../../src/wp-content/plugins/bp-xprofile-multi-text-field/includes/classes/class-bp-xprofile-field-type-multi-text.php:192
+msgid "Set to 0 to allow unlimited value items."
+msgstr "Stel in op 0 om geen beperking te hanteren."
+
+#: ../../../../src/wp-content/plugins/bp-xprofile-multi-text-field/includes/classes/class-bp-xprofile-field-type-multi-text.php:38
+msgctxt "xprofile field type"
+msgid "Multi Text Box"
+msgstr "Multi Tekstveld"
