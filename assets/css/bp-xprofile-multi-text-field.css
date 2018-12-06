@@ -1,0 +1,44 @@
+/**
+ * BP XProfile Multi Text Field Styles
+ *
+ * @package BP XProfile Multi Text Field
+ * @subpackage Main
+ */
+
+.bp-user .editfield.field_type_multi_text .multi-text-input,
+.wp-admin.buddypress .field-group .multi_text .multi-text-input {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+	margin: 0px 0px 1em;
+}
+
+.bp-user .editfield.field_type_multi_text button,
+.wp-admin.buddypress .field-group .multi_text button {
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+}
+
+.bp-user .editfield.field_type_multi_text button:before,
+.wp-admin.buddypress .field-group .multi_text button:before {
+	content: '';
+	font-family: dashicons;
+	padding: 2px 4px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-image: none !important;
+}
+
+.bp-user .editfield.field_type_multi_text button.add-field:before,
+.wp-admin.buddypress .field-group .multi_text button.add-field:before {
+	content: '\f132';
+}
+
+.bp-user .editfield.field_type_multi_text button.remove-field:before,
+.wp-admin.buddypress .field-group .multi_text button.remove-field:before {
+	content: '\f158';
+}
