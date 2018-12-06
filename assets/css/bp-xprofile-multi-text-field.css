@@ -23,9 +23,14 @@
 	font-size: 14px;
 }
 
+.bp-user .editfield.field_type_multi_text button {
+	width: 42px;
+}
+
 .bp-user .editfield.field_type_multi_text button:before,
 .wp-admin.buddypress .field-group .multi_text button:before {
 	content: '';
+	display: block;
 	font-family: dashicons;
 	padding: 2px 4px;
 	-webkit-font-smoothing: antialiased;
@@ -36,9 +41,11 @@
 .bp-user .editfield.field_type_multi_text button.add-field:before,
 .wp-admin.buddypress .field-group .multi_text button.add-field:before {
 	content: '\f132';
+	margin-top: 3px;
 }
 
 .bp-user .editfield.field_type_multi_text button.remove-field:before,
 .wp-admin.buddypress .field-group .multi_text button.remove-field:before {
 	content: '\f158';
+	margin-top: 1px;
 }
