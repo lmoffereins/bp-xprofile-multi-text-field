@@ -1,6 +1,6 @@
 === BP XProfile Multi Text Field ===
 Contributors: offereins
-Tags: buddypress, xprofile, extended, profile, multi, multiple, text
+Tags: buddypress, xprofile, extended, profile, multi, multiple, text box, input
 Requires at least: 4.7, BP 2.1
 Tested up to: 4.9.8, BP 4.0
 Stable tag: 1.0.0

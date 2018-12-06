@@ -255,7 +255,7 @@ final class BP_XProfile_Multi_Text_Field {
 		foreach ( $this->get_meta_keys() as $meta ) {
 
 			// Delete when the option was not posted
-			if ( ! isset( $_POST[ "{$meta}_{$type}" ] ) ) {
+			if ( ! isset( $_POST["{$meta}_{$type}"] ) ) {
 				bp_xprofile_delete_meta( $field->id, 'field', $meta );
 
 			// Update metadata
