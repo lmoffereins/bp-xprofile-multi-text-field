@@ -6,6 +6,7 @@
  */
 
 .bp-user .editfield.field_type_multi_text .multi-text-input,
+.wp-admin.buddypress .bp-profile-field.field_type_multi_text .multi-text-input,
 .wp-admin.buddypress .field-group .multi_text .multi-text-input {
 	display: -webkit-box;
 	display: -moz-box;
@@ -16,19 +17,22 @@
 	margin: 0px 0px 1em;
 }
 
-.bp-user .editfield.field_type_multi_text button,
-.wp-admin.buddypress .field-group .multi_text button {
+.bp-user .editfield.field_type_multi_text .multi-text-input button,
+.wp-admin.buddypress .bp-profile-field.field_type_multi_text .multi-text-input button,
+.wp-admin.buddypress .field-group .multi_text .multi-text-input button {
 	margin: 0px;
 	padding: 0px;
 	font-size: 14px;
 }
 
-.bp-user .editfield.field_type_multi_text button {
+.bp-user .editfield.field_type_multi_text .multi-text-input button,
+.wp-admin.buddypress .bp-profile-field.field_type_multi_text .multi-text-input button {
 	width: 42px;
 }
 
-.bp-user .editfield.field_type_multi_text button:before,
-.wp-admin.buddypress .field-group .multi_text button:before {
+.bp-user .editfield.field_type_multi_text .multi-text-input button:before,
+.wp-admin.buddypress .bp-profile-field.field_type_multi_text .multi-text-input button:before,
+.wp-admin.buddypress .field-group .multi_text .multi-text-input button:before {
 	content: '';
 	display: block;
 	font-family: dashicons;
@@ -38,14 +42,22 @@
 	background-image: none !important;
 }
 
-.bp-user .editfield.field_type_multi_text button.add-field:before,
-.wp-admin.buddypress .field-group .multi_text button.add-field:before {
+.bp-user .editfield.field_type_multi_text .multi-text-input button.add-field:before,
+.wp-admin.buddypress .bp-profile-field.field_type_multi_text .multi-text-input button.add-field:before,
+.wp-admin.buddypress .field-group .multi_text .multi-text-input button.add-field:before {
 	content: '\f132';
 	margin-top: 3px;
 }
 
-.bp-user .editfield.field_type_multi_text button.remove-field:before,
-.wp-admin.buddypress .field-group .multi_text button.remove-field:before {
+.bp-user .editfield.field_type_multi_text .multi-text-input button.remove-field:before,
+.wp-admin.buddypress .bp-profile-field.field_type_multi_text .multi-text-input button.remove-field:before,
+.wp-admin.buddypress .field-group .multi_text .multi-text-input button.remove-field:before {
 	content: '\f158';
 	margin-top: 1px;
+}
+
+@media screen and (min-width: 782px) {
+	.wp-admin.buddypress .bp-profile-field.field_type_multi_text .multi-text-wrapper {
+		margin-left: 200px;
+	}
 }

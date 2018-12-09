@@ -279,6 +279,10 @@ final class BP_XProfile_Multi_Text_Field {
 		// When on profile fields or edit page
 		if ( is_admin() && ! empty( $_GET['page'] ) && in_array( $_GET['page'], array( 'bp-profile-setup', 'bp-profile-edit' ) ) ) {
 			wp_enqueue_style( 'bp-xprofile-multi-text-field' );
+
+			if ( 'bp-profile-edit' === $_GET['page'] ) {
+				wp_enqueue_script( 'bp-xprofile-multi-text-field' );
+			}
 		}
 
 		// When on a BP page

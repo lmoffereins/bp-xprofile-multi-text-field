@@ -7,7 +7,7 @@
 ( function( $ ) {
 
 	// When clicking an input action button
-	$( '.bp-user' ).on( 'click', '.field_type_multi_text button', function() {
+	$( 'body.buddypress, body.bp-user' ).on( 'click', '.field_type_multi_text button', function() {
 		var $wrapper = $( this ).parent(),
 		    maxItemsAllowed = $wrapper.parent().data( 'max-items-allowed' ) || 0,
 		    itemCount = maxItemsAllowed ? $wrapper.siblings().length : -1;
