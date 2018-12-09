@@ -3,7 +3,7 @@ Contributors: offereins
 Tags: buddypress, xprofile, extended, profile, multi, multiple, text box, input
 Requires at least: 4.7, BP 2.1
 Tested up to: 4.9.8, BP 4.0
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 

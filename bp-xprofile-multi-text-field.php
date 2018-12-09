@@ -11,7 +11,7 @@
  * Plugin Name:       BP XProfile Multi Text Field
  * Description:       BuddyPress profile field type that can have multiple text inputs
  * Plugin URI:        https://github.com/lmoffereins/bp-xprofile-multi-text-field/
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Laurens Offereins
  * Author URI:        https://github.com/lmoffereins/
  * Text Domain:       bp-xprofile-multi-text-field
@@ -76,7 +76,7 @@ final class BP_XProfile_Multi_Text_Field {
 
 		/** Versions **********************************************************/
 
-		$this->version      = '1.0.0';
+		$this->version      = '1.0.1';
 
 		/** Paths *************************************************************/
 
