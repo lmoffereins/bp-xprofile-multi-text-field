@@ -19,5 +19,8 @@ This plugin is not hosted in the official WordPress repository. Instead, updatin
 
 == Changelog ==
 
+= 1.0.1 =
+* Fixed missing styles and scripts for extended user profile edit screens in the admin.
+
 = 1.0.0 =
 * Initial release
